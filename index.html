@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samsung Website</title>
+    <link rel="stylesheet" href="./dist/style.css" />
+    <link rel="icon" href="samsung.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="">
+    <!-- narbar -->
+    <nav
+      class="top-0 relative z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 bg-black "
+    >
+      <div
+        class="container px-4 mx-auto flex flex-wrap items-center justify-between"
+      >
+        <div
+          class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+        >
+          <a
+            href="#home"
+            class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+            >Home</a
+          >
+          <button
+            class="cursor-pointer  leading-none text-xl px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden lg:outline-none focus:outline-none"
+            type="button"
+            onclick="toggleNavbar('example-collapse-navbar')"
+          >
+            <i class="text-white fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- top bar -->
+        <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden" id="example-collapse-navbar">
+            <ul class="flex flex-col lg:flex-row list-none mr-auto">
+                <li class="flex items-center">
+                    <a href="#Galaxy Tab" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"><i class="lg:text-gray-300 text-gray-500 fas fa-tablet text-lg leading-lg mr-2"></i>Galaxy Tablet</a>
+                </li>
+                <li class="flex items-center">
+                    <a href="#Galaxy Watch" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"><i class="lg:text-gray-300 text-gray-500 fas fa-clock text-lg leading-lg mr-2"></i>Galaxy Watch</a>
+                </li>
+                <li class="flex items-center">
+                    <a href="#Galaxy Z" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"><i class="lg:text-gray-300 text-gray-500 fas fa-tablet-alt text-lg leading-lg mr-2"></i>Galaxy Z</a>
+                </li>
+                <li class="flex items-center">
+                    <a href="#team" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"><i class="lg:text-gray-300 text-gray-500 fas fa-users text-lg leading-lg mr-2"></i>Team</a>
+                </li>
+                <li class="flex items-center">
+                    <a href="#contact" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"><i class="lg:text-gray-300 text-gray-500 fas fa-address-card text-lg leading-lg mr-2"></i>Contact us</a>
+                </li>
+            </ul>
+
+            <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+                <li class="flex items-center">
+                    <a href="https://www.facebook.com/SamsungUS/" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" target="_blank">
+                        <i class="lg:text-gray-300 text-gray-500 fa-brands fa-facebook text-lg leading-lg ml-2 ">
+                            <span class="lg:hidden inline-block ml-2"></span>
+                        </i>
+                    </a>
+                </li>
+                
+                <li class="flex items-center">
+                    <a href="https://x.com/SamsungMobile?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" target="_blank">
+                        <i class="lg:text-gray-300 text-gray-500 fa-brands fa-twitter text-lg leading-lg ml-2">
+                            <span class="lg:hidden inline-block ml-2 mr-2"></span>
+                        </i>
+                    </a>
+                </li>
+                <li class="flex items-center">
+                    <li class="flex items-center">
+                        <a href="https://www.samsung.com/us/computing/monitors/gaming/" target="_blank">
+                            <button class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3" type="button">
+                                <i class="fas fa-circle-arrow-down mr-2"></i> Buy a odyssey
+                            </button>
+                        </a>
+                    </li>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+        <div class="relative pt-16 lg:pb-32 flex content-center items-center justify-center min-h-full  min-h-home-lg" id="#home">
+            <div class="absolute w-full h-full">
+                <video src="https://images.samsung.com/is/content/samsung/assets/consumer/global/vd/monitors/odyssey/odyssey-kv-main-video.mp4" autoplay muted class="top-0 bg-center " style="width: 100%; height: auto; object-fit: contain;"></video>
+            </div>
+
+            <div class="container relative mx-auto hidden md:block">
+                <div class="flex items-center flex-wrap">
+                    <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                        <div class="pr-12">
+                            <h1 class="text-white font-semibold text-5xl mt-32"></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="pb-20 mt-40 bg-gray-100" id="ipad">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap">
+                    <!-- cards -->
+                    <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8  shadow-lg rounded-lg ">
+                            <div class="px-4 py-5 flex-auto">
+                                <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                                    <i class="fas fa-tablet-alt"></i>
+                                </div>
+                                <h6 class="text-xl font-semibold">Galaxy Tab S9 Ultra</h6>
+                                <p class="mt-2 mb-4 text-gray-600 ">
+                                    The Galaxy Tab S9 Ultra features a stunning 14.6-inch AMOLED display, powered by a Snapdragon 8 Gen 2 processor. It offers up to 16GB RAM, 1TB storage, and comes with an S Pen for creativity. Ideal for professionals, it's a powerful and versatile tablet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-4/12 px-4 text-center">
+                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg ">
+                            <div class="px-4 py-5 flex-auto">
+                                <div class="text-white p-3 items-center text-center inline-flex justify-center w-12 h-12  mb-5 shadow-lg rounded-full bg-blue-400">
+                                    <i class="fa-regular fa-clock"></i>
+                                </div>
+                                 <h6 class="text-xl font-semibold">Galaxy Watch Ultra</h6>
+                                <p class="mt-2 mb-4 text-gray-600 ">The Galaxy Watch Ultra is a rugged, high-performance smartwatch with advanced health tracking, GPS, and long battery life. It’s built for durability with military-grade materials, making it perfect for outdoor adventures and fitness enthusiasts.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8  shadow-lg rounded-lg ">
+                            <div class="px-4 py-5 flex-auto">
+                                <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                                    <i class="fa-solid fa-mobile-screen-button"></i>
+                                </div>
+                                <h6 class="text-xl font-semibold">Galaxy Z Flip6</h6>
+                                <p class="mt-2 mb-4 text-gray-600 ">The Galaxy Z Flip6 is a stylish foldable smartphone with a compact design. It features a vivid, foldable display, a powerful processor, and an enhanced camera system. Ideal for multitasking and on-the-go use, it combines innovation with convenience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Begening of first section -->
+        <section class="relative py-20 bg-black" id="Galaxy Tab">
+            <div class=" bottom-auto top-0 left-0 right-0 w-full absolute overflow-hidden mt-20" style="height:80px">
+            </div>
+            <div class="container mx-auto px-4 bg-black">
+                <div class="items-center flex flex-wrap">
+                    <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+                        <img src="galaxy-tab-s9-kv-pc.jpg" alt="" class="mx-w-full rounded-lg shadow-lg" style="width:400px">
+                    </div>
+                    <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+                        <div class="md:pr-12">
+                            <div class="text-black p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                                <i class="fas fa-tablet-alt text-xl"></i>
+                            </div>
+                            <h3 class="text-3xl font-semibold text-white">Galaxy Tab S9 Ultra</h3>
+                            <p class="mt-4 text-lg leading-relaxed text-gray-300">Stunning 14.6-inch Dynamic AMOLED 2X display with a 120Hz refresh rate, offering incredibly vibrant colors, deep blacks, and smooth visuals. This makes it perfect for both creative professionals and entertainment enthusiasts who demand the highest quality display for their work and media consumption.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of first section -->
+
+         <!-- 2nd section -->
+        <section class="relative py-20 bg-black" id="Galaxy Watch">
+            <div class=" bottom-auto top-0 left-0 right-0 w-full absolute overflow-hidden mt-20" style="height:80px">
+            </div>
+            <div class="container mx-auto px-4 bg-black">
+                <div class="items-center flex flex-wrap">
+                    <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+                        <div class="md:pr-12">
+                            <div class="text-black p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                                <i class="  fas fa-clock text-xl"></i>
+                            </div>
+                            <h3 class="text-3xl font-semibold text-white">Galaxy Watch Ultra</h3>
+                            <p class="mt-4 text-lg leading-relaxed text-gray-300">Robust durability combined with advanced health and fitness tracking. With military-grade toughness, it’s designed to withstand extreme conditions, while offering comprehensive health monitoring, including heart rate, ECG, and advanced workout tracking, making it the ultimate companion for outdoor adventurers and fitness enthusiasts.</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+                        <img src="galaxy-watch-ultra.png" alt="" class="mx-w-full rounded-lg shadow-lg" style="width:400px">
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!-- end of 2nd section -->
+
+         <!-- last section -->
+        <section class="relative py-20 bg-black" id="Galaxy Z">
+            <div class=" bottom-auto top-0 left-0 right-0 w-full absolute overflow-hidden mt-20" style="height:80px">
+            </div>
+            <div class="container mx-auto px-4 bg-black">
+                <div class="items-center flex flex-wrap">
+                    <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+                        <img src="galaxy-z-flip6.png" alt="" class="mx-w-full rounded-lg shadow-lg" style="width:400px">
+                    </div>
+                    <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+                        <div class="md:pr-12">
+                            <div class="text-black p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                                <i class="fas fa-mobile-screen-button text-xl"></i>
+                            </div>
+                            <h3 class="text-3xl font-semibold text-white">Galaxy Z Flip6</h3>
+                            <p class="mt-4 text-lg leading-relaxed text-gray-300"> Innovative and compact foldable design. Effortlessly transform from a pocket-sized phone to a full-screen smartphone, offering users the perfect blend of portability and expansive display experience, all wrapped in a stylish and durable form factor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- end of last section  -->
+
+        <section class="relative py-20 bg-white" id="team">
+            <div class=" bottom-auto top-0 left-0 right-0 w-full absolute overflow-hidden mt-20" style="height:80px">
+            </div>
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap justify-center text-center mb-24">
+                    <div class="w-full lg:w-6/12 px-4">
+                        <h2 class="text-4xl font-semibold">Samsung Team</h2>
+                        <p class="m-4 text-gray-600 leading-relaxed text-lg">These are the members who have shaped Samsung into what it is today. They will continue to drive the company's success forward.</p>
+                    </div>
+
+                </div>
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                        <div class="px-6">
+                            <img src="Lee-kun-hee.png" alt="" class="shadow-lg rounded-full mx-auto" style=" width: 200px;">
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Lee Kun-Hee</h5>
+                                <p class="mt-1 text-sm uppercase font-semibold text-gray-500">Former CEO</p>
+                                <div class="mt-6">
+                                    <button class="bg-blue-400 text-white rounded-full w-8 h-8 mr-1 mb-1 ">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </button>
+                                    <button class="bg-blue-600 text-white rounded-full w-8 h-8 mr-1 mb-1">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </button>
+                                    <a href="https://www.linkedin.com/pulse/ten-inspirational-quotes-transformation-memory-samsung-kim/">
+                                    <button class="bg-purple-400 text-white rounded-full w-8 h-8 mr-1 mb-1">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                        <div class="px-6">
+                            <img src="Han, Jong Hee.jpg" alt="" class="shadow-lg rounded-full mx-auto" style=" width: 200px;">
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Han, Jong Hee</h5>
+                                <p class="mt-1 text-sm uppercase font-semibold text-gray-500">Current CEO</p>
+                                <div class="mt-6">
+                                    <button class="bg-blue-400 text-white rounded-full w-8 h-8 mr-1 mb-1 ">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </button>
+                                    <button class="bg-blue-600 text-white rounded-full w-8 h-8 mr-1 mb-1">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </button>
+                                    <button class="bg-purple-400 text-white rounded-full w-8 h-8 mr-1 mb-1">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                        <div class="px-6">
+                            <img src="Jung-bae-lee.png" alt="" class="shadow-lg rounded-full mx-auto" style=" width: 200px;">
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Dr. Jung-Bae Lee</h5>
+                                <p class="mt-1 text-sm uppercase font-semibold text-gray-500">President and GM of Memory Business @ Samsung Electronics' Device Solutions Division.</p>
+                                <div class="mt-6">
+                                    <button class="bg-blue-400 text-white rounded-full w-8 h-8 mr-1 mb-1 ">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </button>
+                                    <button class="bg-blue-600 text-white rounded-full w-8 h-8 mr-1 mb-1">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </button>
+                                    <button class="bg-purple-400 text-white rounded-full w-8 h-8 mr-1 mb-1">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+                        <div class="px-6">
+                            <img src="john-yong-park.png" alt="" class="shadow-lg rounded-full mx-auto" style=" width: 200px;">
+                            <div class="pt-6 text-center">
+                                <h5 class="text-xl font-bold">Mr. Yong-In Park</h5>
+                                <p class="mt-1 text-sm uppercase font-semibold text-gray-500">President of the System LSI Business @ Samsung Electronics' Device Solutions Division</p>
+                                <div class="mt-6">
+                                    <button class="bg-blue-400 text-white rounded-full w-8 h-8 mr-1 mb-1 ">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </button>
+                                    <button class="bg-blue-600 text-white rounded-full w-8 h-8 mr-1 mb-1">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </button>
+                                    <button class="bg-purple-400 text-white rounded-full w-8 h-8 mr-1 mb-1">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="relative pb-20 block bg-black" id="contact">
+             <div class=" bottom-auto top-0 left-0 right-0 w-full absolute overflow-hidden mt-20" style="height:80px">
+            </div>
+            <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+                <div class="flex flex-wrap text-center justify-center text-white">
+                    <div class="w-full lg:w-6/12 px-4">
+                        <h2 class="text-4xl font-semibold">Contact Us</h2>
+                        <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-400">
+                            We'd love to hear from you! Whether you have questions, feedback, or suggestions, your input is invaluable to us. Reach out and help us continue to improve and innovate.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-wrap mt-12 justify-center">
+                    <div class="w-full lg:w-3/12 px-4 text-center">
+                        <div class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+                            <i class="fas fa-medal text-lg"></i>
+                        </div>
+                        <h6 class="text-white mt-5 font-semibold text-xl">Strength, Durability, Reliability.</h6>
+                        <p class="mt-2 mb-4 text-gray-400">Crafted with precision and strength, our products stand the test of time with unmatched durability and quality.</p>
+                    </div>
+                    <div class="w-full lg:w-3/12 px-4 text-center">
+                        <div class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+                            <i class="fas fa-lightbulb text-lg"></i>
+                        </div>
+                        <h6 class="text-white mt-5 font-semibold text-xl">Innovation, Creativity, Vision.</h6>
+                        <p class="mt-2 mb-4 text-gray-400">Innovation is at the heart of everything we do, sparking ideas that illuminate the path to a brighter future.</p>
+                    </div>
+                    <div class="w-full lg:w-3/12 px-4 text-center">
+                        <div class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+                            <i class="fas fa-poll text-lg"></i>
+                        </div>
+                        <h6 class="text-white mt-5 font-semibold text-xl"> Growth, Success, Analytics.</h6>
+                        <p class="mt-2 mb-4 text-gray-400">Driven by data and analytics, we continuously optimize performance to achieve excellence in every project.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-black relative block px-24 lg:pt-0">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+                    <div class="w-full lg:w-6/12 px-4">
+                        <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-white ">
+                            <div class="flex-auto p-5 lg:p-10 bg-gray-300">
+                                <h4 class="text-2xl font-semibold">Want To work With Us ?</h4>
+                                <p class="mt-1 mb-4 text-gray-600 leading-relaxed">Complete this form and we will get back to you in 24 hours</p>
+                                <div class="relative w-full mb-3 mt-8">
+                                    <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="full-name">Name</label>
+                                    <input type="text" class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150" placeholder="Name">
+                                </div>
+                                <div class="relative w-full mb-3">
+                                    <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="email">Email</label>
+                                    <input type="email" class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150" placeholder="Email">
+                                </div>
+                                <div class="relative w-full mb-3">
+                                    <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="message">Message</label>
+                                    <textarea rows="4" cols="80" class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150" placeholder="Type a message..."></textarea>
+                                </div>
+                                <div class="text-center mt-6">
+                                    <button class="bg-gray-800 text-white active:bg-gray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="relative pt-8 pb-6 ">
+            <div class="bottom-auto top-0 left-0 right-0 w-full absolute overflow-hidden -mt-20" style="height:80px">
+                <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+                    <polygon class="text-white fill-current" points="2560 0 2560 100 0 100"></polygon>
+                </svg>
+            </div>
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap">
+                    <div class="w-full px-4 lg:w-6/12">
+                        <h4 class="text-3xl font-semibold">Keep In touch</h4>
+                        <h5 class="text-lg mb-2 text-gray-700">You Can Find Us On these platforms</h5>
+                        <div class="mt-6">
+                            <a href="https://x.com/samsungus?lang=en">
+                            <button class="bg-white text-blue-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 mb-2 ease-linear transition-all duration-150" type="button">
+                                <i class="fa-brands fa-twitter"></i>
+                            </button>
+                        </a>
+                            <a href="https://www.facebook.com/SamsungUS/">
+                            <button class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 mb-2 ease-linear transition-all duration-150" type="button">
+                                <i class="fab fa-facebook-square"></i>
+                            </button>
+                        </a>
+                        <a href="https://www.youtube.com/user/SamsungMobile">
+                            <button class="bg-white text-red-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 mb-2 ease-linear transition-all duration-150" type="button">
+                                <i class="fab fa-youtube"></i>
+                            </button>
+                        </a>
+                        <a href="https://www.instagram.com/samsung/">
+                            <button class="bg-white text-purple-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 mb-2 ease-linear transition-all duration-150" type="button">
+                                <i class="fab fa-instagram"></i>
+                            </button>
+                        </a>
+                        <a href="https://github.com/Samsung">
+                            <button class="bg-white text-black shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 mb-2 ease-linear transition-all duration-150" type="button">
+                                <i class="fab fa-github"></i>
+                            </button>
+                        </a>
+
+                        </div>
+                    </div>
+                    <div class="w-full px-4 lg:w-6/12">
+                        <div class="flex flex-wrap  mb-6">
+                            <div class="w-full lg:w-4/12 px-4 ml-auto">
+                                <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">About Us</span>
+                                <ul>
+                                    <li>
+                                        <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="https://www.samsung.com/us/about-us/leadership-and-mission/">Leadership & Mission.</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="https://www.samsung.com/us/about-us/our-business/">Our Business.</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="https://www.samsung.com/us/about-us/brand-identity/">Brand Identity.</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="https://www.samsung.com/us/careers/">Careers.</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="w-full lg:w-4/12 px-4 ml-auto">
+                                <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Shop</span>
+                                <ul>
+                                    <li>
+                                        <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="https://www.samsung.com/us/smartphones/">Phones</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="https://www.samsung.com/us/tablets/">Tablets</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="https://www.samsung.com/us/watches/">Watches</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" href="https://www.samsung.com/us/monitors/">Monitors</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-6 border-gray-400">
+                <div class="flex flex-wrap items-center md:justify-between justify-center">
+                    <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                        <div class="text-sm text-gray-600 font-semibold py-1">
+                            © 2024
+                            <a href="https://github.com/TaiOdunaiya" class="text-gray-600 hover:text-gray-900"> Samsung clone Coded by Tai Odunaiya</a>
+                        </div>
+                    </div>
+            </div>               
+        </footer>
+
+    </main>
+
+  </body>
+  <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+  </script>
+</html>
