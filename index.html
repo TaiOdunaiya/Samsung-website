@@ -129,7 +129,7 @@
                                     <i class="fa-regular fa-clock"></i>
                                 </div>
                                  <h6 class="text-xl font-semibold">Galaxy Watch Ultra</h6>
-                                <p class="mt-2 mb-4 text-gray-600 ">The Galaxy Watch Ultra is a rugged, high-performance smartwatch with advanced health tracking, GPS, and long battery life. It’s built for durability with military-grade materials, making it perfect for outdoor adventures and fitness enthusiasts.</p>
+                                <p class="mt-2 mb-4 text-gray-600 ">The Galaxy Watch Ultra is a rugged, high-performance smartwatch with advanced health tracking, GPS, and long battery life. It's built for durability with military-grade materials, making it perfect for outdoor adventures and fitness enthusiasts.</p>
                             </div>
                         </div>
                     </div>
@@ -182,7 +182,7 @@
                                 <i class="  fas fa-clock text-xl"></i>
                             </div>
                             <h3 class="text-3xl font-semibold text-white">Galaxy Watch Ultra</h3>
-                            <p class="mt-4 text-lg leading-relaxed text-gray-300">Robust durability combined with advanced health and fitness tracking. With military-grade toughness, it’s designed to withstand extreme conditions, while offering comprehensive health monitoring, including heart rate, ECG, and advanced workout tracking, making it the ultimate companion for outdoor adventurers and fitness enthusiasts.</p>
+                            <p class="mt-4 text-lg leading-relaxed text-gray-300">Robust durability combined with advanced health and fitness tracking. With military-grade toughness, it's designed to withstand extreme conditions, while offering comprehensive health monitoring, including heart rate, ECG, and advanced workout tracking, making it the ultimate companion for outdoor adventurers and fitness enthusiasts.</p>
                         </div>
                     </div>
                     <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
@@ -467,7 +467,7 @@
                 <div class="flex flex-wrap items-center md:justify-between justify-center">
                     <div class="w-full md:w-4/12 px-4 mx-auto text-center">
                         <div class="text-sm text-gray-600 font-semibold py-1">
-                            © 2024
+                            © <span id="currentYear"></span>
                             <a href="https://github.com/TaiOdunaiya" class="text-gray-600 hover:text-gray-900"> Samsung clone Coded by Tai Odunaiya</a>
                         </div>
                     </div>
@@ -482,5 +482,8 @@
       document.getElementById(collapseID).classList.toggle("hidden");
       document.getElementById(collapseID).classList.toggle("block");
     }
+
+    // Update copyright year
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
   </script>
 </html>
